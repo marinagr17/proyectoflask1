@@ -3,7 +3,7 @@ import json
 import os
 
 app=Flask (__name__)
-port=os.environ["PORT"]
+
 
 
 @app.route('/')
@@ -75,4 +75,4 @@ def detalle(item_id):
 app.secret_key = 'marina'
 
 if __name__=='__main__':
-    app.run('0.0.0.0',int(port), debug=True)
+    app.run(debug=True)
