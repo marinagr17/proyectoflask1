@@ -75,4 +75,4 @@ def detalle(item_id):
 app.secret_key = 'marina'
 
 if __name__=='__main__':
-    app.run(debug=True, port=8000)
+    app.run(debug=True)
