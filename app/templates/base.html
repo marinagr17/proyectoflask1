@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<!--
+	Verti by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<title>{% block titulo %}{% endblock %}</title>
+		
+        <link href="{{url_for('static', filename='css/main.css')}}" rel="stylesheet">
+        <link href="{{url_for('static', filename='css/fontawesome-all.min.css')}}" rel="stylesheet">
+	</head>
+
+	<body class="is-preload homepage">
+		{% block body %}{% endblock %}
+		
+        
+		<header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+            <!-- Nav -->
+							<nav id="nav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="/">Inicio</a></li>
+                        <li class="active"><a href="/buscador">Buscador</a></li>
+              
+					</nav>
+        </header>
+        <section id="main-slider" class="no-margin"> {% block content %} {%endblock%}
+        </section>
+
+			<footer id="footer" class="container" style="background-color: #CCCCCC; border-top: 2px solid #888888;">
+				<div class="row">
+					<div class="col-3 col-6-medium col-12-small">
+						<!-- Contenido del footer -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div id="copyright">
+							<ul class="menu">
+								<li>&copy; Marina Gracia Ontanilla</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<script src="{{url_for('static', filename='js/breakpoints.min.js')}}"></script>
+			<script src="{{url_for('static', filename='js/browser.min.js')}}"></script>
+			<script src="{{url_for('static', filename='js/jquery.dropotron.min.js')}}"></script>
+			<script src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
+			<script src="{{url_for('static', filename='js/main.js')}}"></script>
+			<script src="{{url_for('static', filename='js/util.js')}}"></script>
+
+						</body>
+					</hmtl>

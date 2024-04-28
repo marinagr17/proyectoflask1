@@ -1,0 +1,20 @@
+{% extends './base.html' %}
+{% block titulo %}BarBrio.{% endblock %}
+{% block body %}
+<div id="banner-wrapper">
+    <div id="banner" class="box container">
+        <div class="row">
+            <div class="col-7 col-12-medium">	
+                <h2>Bienvenido.</h2>
+                <p>Haz click en la imagen para más</p>
+            </div>
+            <div class="col-5 col-12-medium">
+              <a href="{{ url_for('buscador') }}">    
+                    <img src="{{ url_for('static', filename='images/pic01.jpeg') }}" alt="Logo">
+                </a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+{% endblock %} 

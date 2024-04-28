@@ -1,0 +1,18 @@
+{% extends './base.html' %}
+{% block title %}Buscador{% endblock %}
+{% block content %}
+<div id="banner-wrapper">
+    <div id="banner" class="box container">
+        <div class="row">
+            <div class="col-7 col-12-medium">	
+    <h2>PLATO:</h2>
+    
+        <form method="post" action="/lista">
+            <input type="text" name="cadena" value="{{ cadena }}">
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+</div>
+</div>
+</div>
+{% endblock %}

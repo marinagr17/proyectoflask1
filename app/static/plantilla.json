@@ -1,0 +1,724 @@
+{
+    "menu": [
+        {
+            "item_id": "1",
+            "nombre_plato": "Pizza Margherita",
+            "categoria": "Pizza",
+            "descripcion": "Pizza clásica con tomate, mozzarella y albahaca",
+            "precio": 12.99,
+            "nivel_picante": "Suave",
+            "vegetariano": true,
+            "libre_de_gluten": false,
+            "ingredientes": ["Salsa de Tomate", "Queso Mozzarella", "Albahaca Fresca"],
+            "disponible": true,
+            "recomendacion": "Perfecta para aquellos que buscan una opción clásica y reconfortante.",
+            "alergenos": ["Lactosa"],
+            "valoraciones": [
+                {"usuario": "Cliente1", "puntuacion": 4},
+                {"usuario": "Cliente2", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "2",
+            "nombre_plato": "Pollo Alfredo",
+            "categoria": "Pasta",
+            "descripcion": "Pasta cremosa Alfredo con pollo a la parrilla",
+            "precio": 15.99,
+            "nivel_picante": "Suave",
+            "vegetariano": false,
+            "libre_de_gluten": false,
+            "ingredientes": ["Pasta Fettuccine", "Salsa Alfredo", "Pollo a la Parrilla"],
+            "disponible": true,
+            "recomendacion": "Una opción deliciosa para los amantes de la pasta y el pollo.",
+            "alergenos": ["Gluten"],
+            "valoraciones": [
+                {"usuario": "Cliente3", "puntuacion": 5},
+                {"usuario": "Cliente4", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "3",
+            "nombre_plato": "Ensalada César",
+            "categoria": "Ensalada",
+            "descripcion": "Lechuga romana fresca con aderezo César y crutones",
+            "precio": 8.99,
+            "nivel_picante": "Suave",
+            "vegetariano": true,
+            "libre_de_gluten": false,
+            "ingredientes": ["Lechuga Romana", "Aderezo César", "Crutones"],
+            "disponible": true,
+            "recomendacion": "Una opción refrescante y sabrosa para los amantes de las ensaladas.",
+            "alergenos": [],
+            "valoraciones": [
+                {"usuario": "Cliente5", "puntuacion": 4},
+                {"usuario": "Cliente6", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "4",
+            "nombre_plato": "Salmón a la Parrilla",
+            "categoria": "Mariscos",
+            "descripcion": "Filete de salmón a la parrilla con limón y hierbas",
+            "precio": 17.99,
+            "nivel_picante": "Suave",
+            "vegetariano": false,
+            "libre_de_gluten": true,
+            "ingredientes": ["Filete de Salmón", "Limón", "Hierbas"],
+            "disponible": true,
+            "recomendacion": "Perfecto para los amantes de los mariscos que buscan una opción saludable y deliciosa.",
+            "alergenos": ["Pescado"],
+            "valoraciones": [
+                {"usuario": "Cliente7", "puntuacion": 5},
+                {"usuario": "Cliente8", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "5",
+            "nombre_plato": "Salteado de Verduras",
+            "categoria": "Vegetariano",
+            "descripcion": "Verduras surtidas salteadas en una salsa sabrosa",
+            "precio": 11.99,
+            "nivel_picante": "Medio",
+            "vegetariano": true,
+            "libre_de_gluten": true,
+            "ingredientes": ["Verduras Surtidas", "Salsa de Salteado"],
+            "disponible": true,
+            "recomendacion": "Una opción saludable y sabrosa para aquellos que prefieren platos vegetarianos.",
+            "alergenos": [],
+            "valoraciones": [
+                {"usuario": "Cliente9", "puntuacion": 4},
+                {"usuario": "Cliente10", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "6",
+            "nombre_plato": "Hamburguesa Clásica",
+            "categoria": "Hamburguesa",
+            "descripcion": "Hamburguesa clásica con lechuga, tomate y queso",
+            "precio": 9.99,
+            "nivel_picante": "Suave",
+            "vegetariano": false,
+            "libre_de_gluten": false,
+            "ingredientes": ["Carne de Res", "Lechuga", "Tomate", "Queso"],
+            "disponible": true,
+            "recomendacion": "Una opción reconfortante para los amantes de las hamburguesas.",
+            "alergenos": [],
+            "valoraciones": [
+                {"usuario": "Cliente11", "puntuacion": 5},
+                {"usuario": "Cliente12", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "7",
+            "nombre_plato": "Brownie de Chocolate",
+            "categoria": "Postre",
+            "descripcion": "Brownie de chocolate caliente con helado de vainilla",
+            "precio": 6.99,
+            "nivel_picante": "Suave",
+            "vegetariano": true,
+            "libre_de_gluten": false,
+            "ingredientes": ["Brownie de Chocolate", "Helado de Vainilla"],
+            "disponible": true,
+            "recomendacion": "La opción perfecta para los amantes del chocolate que buscan un postre indulgente.",
+            "alergenos": ["Lácteos"],
+            "valoraciones": [
+                {"usuario": "Cliente13", "puntuacion": 4},
+                {"usuario": "Cliente14", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "8",
+            "nombre_plato": "Batido de Mango",
+            "categoria": "Bebida",
+            "descripcion": "Refrescante batido de mango",
+            "precio": 4.99,
+            "nivel_picante": "Sin Picante",
+            "vegetariano": true,
+            "libre_de_gluten": true,
+            "ingredientes": ["Mango", "Yogur", "Miel"],
+            "disponible": true,
+            "recomendacion": "Perfecto para aquellos que buscan una bebida refrescante y frutal.",
+            "alergenos": [],
+            "valoraciones": [
+                {"usuario": "Cliente15", "puntuacion": 5},
+                {"usuario": "Cliente16", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "9",
+            "nombre_plato": "Tiras de Pollo Crujientes",
+            "categoria": "Aperitivo",
+            "descripcion": "Tiras de pollo crujientes con salsa para mojar",
+            "precio": 8.99,
+            "nivel_picante": "Suave",
+            "vegetariano": false,
+            "libre_de_gluten": false,
+            "ingredientes": ["Tiras de Pollo", "Salsa para Mojar"],
+            "disponible": true,
+            "recomendacion": "Un aperitivo delicioso para compartir con amigos y familiares.",
+            "alergenos": ["Gluten"],
+            "valoraciones": [
+                {"usuario": "Cliente17", "puntuacion": 4},
+                {"usuario": "Cliente18", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "10",
+            "nombre_plato": "Combo de Sushi",
+            "categoria": "Sushi",
+            "descripcion": "Rollos de sushi surtidos con wasabi y salsa de soja",
+            "precio": 18.99,
+            "nivel_picante": "Sin Picante",
+            "vegetariano": false,
+            "libre_de_gluten": false,
+            "ingredientes": ["Rollos de Sushi Surtidos", "Wasabi", "Salsa de Soja"],
+            "disponible": true,
+            "recomendacion": "Una selección perfecta para los amantes del sushi que desean probar una variedad de sabores.",
+            "alergenos": ["Pescado"],
+            "valoraciones": [
+                {"usuario": "Cliente19", "puntuacion": 5},
+                {"usuario": "Cliente20", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "11",
+            "nombre_plato": "Ceviche de Camarón",
+            "categoria": "Mariscos",
+            "descripcion": "Ceviche fresco de camarón con limón y cilantro",
+            "precio": 14.99,
+            "nivel_picante": "Medio",
+            "vegetariano": false,
+            "libre_de_gluten": true,
+            "ingredientes": ["Camarón Fresco", "Limón", "Cilantro"],
+            "disponible": true,
+            "recomendacion": "Una deliciosa opción de mariscos frescos para los amantes del ceviche.",
+            "alergenos": ["Pescado", "Crustáceos"],
+            "valoraciones": [
+                {"usuario": "Cliente21", "puntuacion": 4},
+                {"usuario": "Cliente22", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "12",
+            "nombre_plato": "Pastel de Zanahoria",
+            "categoria": "Postre",
+            "descripcion": "Pastel de zanahoria con crema de queso",
+            "precio": 7.99,
+            "nivel_picante": "Suave",
+            "vegetariano": true,
+            "libre_de_gluten": false,
+            "ingredientes": ["Zanahoria", "Crema de Queso", "Nuez"],
+            "disponible": true,
+            "recomendacion": "Una opción dulce y reconfortante para los amantes de los postres caseros.",
+            "alergenos": ["Lácteos", "Frutos Secos"],
+            "valoraciones": [
+                {"usuario": "Cliente23", "puntuacion": 5},
+                {"usuario": "Cliente24", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "13",
+            "nombre_plato": "Tarta de Manzana",
+            "categoria": "Postre",
+            "descripcion": "Tarta de manzana casera con canela y helado de vainilla",
+            "precio": 8.49,
+            "nivel_picante": "Suave",
+            "vegetariano": true,
+            "libre_de_gluten": false,
+            "ingredientes": ["Manzana", "Canela", "Helado de Vainilla"],
+            "disponible": true,
+            "recomendacion": "Una deliciosa tarta casera para los amantes de la manzana y la canela.",
+            "alergenos": ["Lácteos"],
+            "valoraciones": [
+                {"usuario": "Cliente25", "puntuacion": 4},
+                {"usuario": "Cliente26", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "14",
+            "nombre_plato": "Enchiladas de Pollo",
+            "categoria": "Plato Principal",
+            "descripcion": "Enchiladas de pollo con salsa roja, queso y crema",
+            "precio": 10.99,
+            "nivel_picante": "Medio",
+            "vegetariano": false,
+            "libre_de_gluten": false,
+            "ingredientes": ["Pollo", "Tortillas de Maíz", "Salsa Roja", "Queso", "Crema"],
+            "disponible": true,
+            "recomendacion": "Un plato típico de la cocina mexicana para disfrutar en cualquier momento.",
+            "alergenos": ["Lácteos", "Maíz"],
+            "valoraciones": [
+                {"usuario": "Cliente27", "puntuacion": 5},
+                {"usuario": "Cliente28", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "15",
+            "nombre_plato": "Café Americano",
+            "categoria": "Bebida",
+            "descripcion": "Café americano recién preparado",
+            "precio": 2.49,
+            "nivel_picante": "Sin Picante",
+            "vegetariano": true,
+            "libre_de_gluten": true,
+            "ingredientes": ["Café"],
+            "disponible": true,
+            "recomendacion": "Un café clásico para empezar el día con energía.",
+            "alergenos": [],
+            "valoraciones": [
+                {"usuario": "Cliente29", "puntuacion": 4},
+                {"usuario": "Cliente30", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "16",
+            "nombre_plato": "Tacos de Carne Asada",
+            "categoria": "Plato Principal",
+            "descripcion": "Tacos de carne asada con cebolla, cilantro y salsa verde",
+            "precio": 9.99,
+            "nivel_picante": "Medio",
+            "vegetariano": false,
+            "libre_de_gluten": false,
+            "ingredientes": ["Carne Asada", "Tortillas de Maíz", "Cebolla", "Cilantro", "Salsa Verde"],
+            "disponible": true,
+            "recomendacion": "Una opción sabrosa y auténtica de la cocina mexicana.",
+            "alergenos": ["Maíz"],
+            "valoraciones": [
+                {"usuario": "Cliente31", "puntuacion": 5},
+                {"usuario": "Cliente32", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "17",
+            "nombre_plato": "Tiramisú",
+            "categoria": "Postre",
+            "descripcion": "Tiramisú italiano con capas de bizcocho, café y mascarpone",
+            "precio": 8.99,
+            "nivel_picante": "Suave",
+            "vegetariano": true,
+            "libre_de_gluten": false,
+            "ingredientes": ["Bizcocho", "Café", "Mascarpone", "Cacao"],
+            "disponible": true,
+            "recomendacion": "Un postre clásico italiano para disfrutar después de una comida.",
+            "alergenos": ["Lácteos"],
+            "valoraciones": [
+                {"usuario": "Cliente33", "puntuacion": 4},
+                {"usuario": "Cliente34", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "18",
+            "nombre_plato": "Margarita",
+            "categoria": "Cóctel",
+            "descripcion": "Cóctel Margarita con tequila, triple sec y jugo de lima",
+            "precio": 7.49,
+            "nivel_picante": "Sin Picante",
+            "vegetariano": true,
+            "libre_de_gluten": true,
+            "ingredientes": ["Tequila", "Triple Sec", "Jugo de Lima"],
+            "disponible": true,
+            "recomendacion": "Un cóctel refrescante para disfrutar en cualquier ocasión.",
+            "alergenos": [],
+            "valoraciones": [
+                {"usuario": "Cliente35", "puntuacion": 5},
+                {"usuario": "Cliente36", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "19",
+            "nombre_plato": "Risotto de Champiñones",
+            "categoria": "Plato Principal",
+            "descripcion": "Risotto cremoso de champiñones con queso parmesano",
+            "precio": 13.99,
+            "nivel_picante": "Suave",
+            "vegetariano": true,
+            "libre_de_gluten": false,
+            "ingredientes": ["Arroz Arborio", "Champiñones", "Queso Parmesano", "Caldo de Verduras"],
+            "disponible": true,
+            "recomendacion": "Un plato italiano reconfortante perfecto para los amantes de los hongos.",
+            "alergenos": ["Lácteos"],
+            "valoraciones": [
+                {"usuario": "Cliente37", "puntuacion": 4},
+                {"usuario": "Cliente38", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "20",
+            "nombre_plato": "Mojito",
+            "categoria": "Cóctel",
+            "descripcion": "Cóctel Mojito con ron, menta, lima y soda",
+            "precio": 8.49,
+            "nivel_picante": "Sin Picante",
+            "vegetariano": true,
+            "libre_de_gluten": true,
+            "ingredientes": ["Ron", "Menta", "Lima", "Soda"],
+            "disponible": true,
+            "recomendacion": "Un cóctel refrescante y tropical para disfrutar en días calurosos.",
+            "alergenos": [],
+            "valoraciones": [
+                {"usuario": "Cliente39", "puntuacion": 5},
+                {"usuario": "Cliente40", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "21",
+            "nombre_plato": "Fajitas de Pollo",
+            "categoria": "Plato Principal",
+            "descripcion": "Fajitas de pollo con pimientos, cebolla y guarniciones",
+            "precio": 11.99,
+            "nivel_picante": "Medio",
+            "vegetariano": false,
+            "libre_de_gluten": false,
+            "ingredientes": ["Pollo", "Pimientos", "Cebolla", "Tortillas de Trigo"],
+            "disponible": true,
+            "recomendacion": "Una opción sabrosa y abundante para disfrutar en compañía.",
+            "alergenos": ["Trigo"],
+            "valoraciones": [
+                {"usuario": "Cliente41", "puntuacion": 4},
+                {"usuario": "Cliente42", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "22",
+            "nombre_plato": "Mousse de Chocolate",
+            "categoria": "Postre",
+            "descripcion": "Mousse de chocolate cremoso y ligero",
+            "precio": 6.49,
+            "nivel_picante": "Suave",
+            "vegetariano": true,
+            "libre_de_gluten": false,
+            "ingredientes": ["Chocolate", "Nata", "Huevo"],
+            "disponible": true,
+            "recomendacion": "Un postre indulgente para los amantes del chocolate.",
+            "alergenos": ["Lácteos", "Huevo"],
+            "valoraciones": [
+                {"usuario": "Cliente43", "puntuacion": 5},
+                {"usuario": "Cliente44", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "23",
+            "nombre_plato": "Gazpacho",
+            "categoria": "Sopa",
+            "descripcion": "Sopa fría de tomate, pepino y pimiento",
+            "precio": 5.99,
+            "nivel_picante": "Suave",
+            "vegetariano": true,
+            "libre_de_gluten": true,
+            "ingredientes": ["Tomate", "Pepino", "Pimiento", "Ajo", "Aceite de Oliva"],
+            "disponible": true,
+            "recomendacion": "Un plato refrescante y saludable para los días calurosos.",
+            "alergenos": [],
+            "valoraciones": [
+                {"usuario": "Cliente45", "puntuacion": 4},
+                {"usuario": "Cliente46", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "24",
+            "nombre_plato": "Sopa de Cebolla",
+            "categoria": "Sopa",
+            "descripcion": "Sopa de cebolla gratinada con queso Gruyère",
+            "precio": 7.49,
+            "nivel_picante": "Suave",
+            "vegetariano": true,
+            "libre_de_gluten": false,
+            "ingredientes": ["Cebolla", "Caldo de Verduras", "Queso Gruyère"],
+            "disponible": true,
+            "recomendacion": "Una sopa reconfortante y llena de sabor para disfrutar en cualquier época del año.",
+            "alergenos": ["Lácteos"],
+            "valoraciones": [
+                {"usuario": "Cliente47", "puntuacion": 5},
+                {"usuario": "Cliente48", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "25",
+            "nombre_plato": "Margarita de Mango",
+            "categoria": "Cóctel",
+            "descripcion": "Cóctel Margarita de mango con tequila, triple sec y jugo de lima",
+            "precio": 8.99,
+            "nivel_picante": "Sin Picante",
+            "vegetariano": true,
+            "libre_de_gluten": true,
+            "ingredientes": ["Mango", "Tequila", "Triple Sec", "Jugo de Lima"],
+            "disponible": true,
+            "recomendacion": "Una variante tropical de la clásica Margarita para los amantes de los sabores exóticos.",
+            "alergenos": [],
+            "valoraciones": [
+                {"usuario": "Cliente49", "puntuacion": 4},
+                {"usuario": "Cliente50", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "26",
+            "nombre_plato": "Pasta Primavera",
+            "categoria": "Pasta",
+            "descripcion": "Pasta primavera con verduras frescas y salsa de tomate",
+            "precio": 11.49,
+            "nivel_picante": "Suave",
+            "vegetariano": true,
+            "libre_de_gluten": false,
+            "ingredientes": ["Pasta Penne", "Tomate", "Berenjena", "Calabacín", "Pimiento", "Cebolla"],
+            "disponible": true,
+            "recomendacion": "Una opción ligera y colorida para disfrutar en cualquier época del año.",
+            "alergenos": ["Gluten"],
+            "valoraciones": [
+                {"usuario": "Cliente51", "puntuacion": 5},
+                {"usuario": "Cliente52", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "27",
+            "nombre_plato": "Arroz con Pollo",
+            "categoria": "Plato Principal",
+            "descripcion": "Arroz con pollo estilo latinoamericano con sofrito y especias",
+            "precio": 10.99,
+            "nivel_picante": "Suave",
+            "vegetariano": false,
+            "libre_de_gluten": true,
+            "ingredientes": ["Pollo", "Arroz", "Cebolla", "Pimiento", "Tomate"],
+            "disponible": true,
+            "recomendacion": "Un plato clásico y reconfortante de la cocina latinoamericana.",
+            "alergenos": [],
+            "valoraciones": [
+                {"usuario": "Cliente53", "puntuacion": 4},
+                {"usuario": "Cliente54", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "28",
+            "nombre_plato": "Margarita de Fresa",
+            "categoria": "Cóctel",
+            "descripcion": "Cóctel Margarita de fresa con tequila, triple sec y jugo de lima",
+            "precio": 8.99,
+            "nivel_picante": "Sin Picante",
+            "vegetariano": true,
+            "libre_de_gluten": true,
+            "ingredientes": ["Fresa", "Tequila", "Triple Sec", "Jugo de Lima"],
+            "disponible": true,
+            "recomendacion": "Una versión refrescante y frutal de la clásica Margarita.",
+            "alergenos": [],
+            "valoraciones": [
+                {"usuario": "Cliente55", "puntuacion": 5},
+                {"usuario": "Cliente56", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "29",
+            "nombre_plato": "Sándwich de Pavo",
+            "categoria": "Plato Principal",
+            "descripcion": "Sándwich de pavo con aguacate, lechuga y tomate",
+            "precio": 8.49,
+            "nivel_picante": "Suave",
+            "vegetariano": false,
+            "libre_de_gluten": true,
+            "ingredientes": ["Pavo", "Pan de Molde", "Aguacate", "Lechuga", "Tomate"],
+            "disponible": true,
+            "recomendacion": "Un sándwich clásico y saludable para disfrutar en cualquier momento del día.",
+            "alergenos": ["Gluten"],
+            "valoraciones": [
+                {"usuario": "Cliente57", "puntuacion": 4},
+                {"usuario": "Cliente58", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "30",
+            "nombre_plato": "Piña Colada",
+            "categoria": "Cóctel",
+            "descripcion": "Cóctel Piña Colada con ron, crema de coco y jugo de piña",
+            "precio": 9.49,
+            "nivel_picante": "Sin Picante",
+            "vegetariano": true,
+            "libre_de_gluten": true,
+            "ingredientes": ["Piña", "Ron", "Crema de Coco", "Jugo de Piña"],
+            "disponible": true,
+            "recomendacion": "Un cóctel tropical y cremoso para sentirse como en el paraíso.",
+            "alergenos": [],
+            "valoraciones": [
+                {"usuario": "Cliente59", "puntuacion": 5},
+                {"usuario": "Cliente60", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "31",
+            "nombre_plato": "Paella",
+            "categoria": "Plato Principal",
+            "descripcion": "Paella valenciana con pollo, mariscos y verduras",
+            "precio": 16.99,
+            "nivel_picante": "Suave",
+            "vegetariano": false,
+            "libre_de_gluten": false,
+            "ingredientes": ["Arroz", "Pollo", "Mariscos", "Judías Verdes", "Pimiento", "Tomate"],
+            "disponible": true,
+            "recomendacion": "Un plato emblemático de la cocina española para disfrutar en compañía.",
+            "alergenos": ["Mariscos"],
+            "valoraciones": [
+                {"usuario": "Cliente61", "puntuacion": 4},
+                {"usuario": "Cliente62", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "32",
+            "nombre_plato": "Tarta de Queso",
+            "categoria": "Postre",
+            "descripcion": "Tarta de queso horneada con salsa de frutos rojos",
+            "precio": 7.99,
+            "nivel_picante": "Suave",
+            "vegetariano": true,
+            "libre_de_gluten": false,
+            "ingredientes": ["Queso Crema", "Galletas", "Mantequilla", "Frutos Rojos"],
+            "disponible": true,
+            "recomendacion": "Un postre clásico y delicioso que nunca pasa de moda.",
+            "alergenos": ["Lácteos"],
+            "valoraciones": [
+                {"usuario": "Cliente63", "puntuacion": 5},
+                {"usuario": "Cliente64", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "33",
+            "nombre_plato": "Ceviche de Pescado",
+            "categoria": "Mariscos",
+            "descripcion": "Ceviche fresco de pescado blanco con limón y cilantro",
+            "precio": 13.99,
+            "nivel_picante": "Medio",
+            "vegetariano": false,
+            "libre_de_gluten": true,
+            "ingredientes": ["Pescado Blanco", "Limón", "Cilantro", "Cebolla"],
+            "disponible": true,
+            "recomendacion": "Una opción fresca y saludable para los amantes del ceviche.",
+            "alergenos": ["Pescado"],
+            "valoraciones": [
+                {"usuario": "Cliente65", "puntuacion": 4},
+                {"usuario": "Cliente66", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "34",
+            "nombre_plato": "Sushi Variado",
+            "categoria": "Sushi",
+            "descripcion": "Variedad de sushi fresco y delicioso",
+            "precio": 20.99,
+            "nivel_picante": "Sin Picante",
+            "vegetariano": false,
+            "libre_de_gluten": false,
+            "ingredientes": ["Salmón", "Atún", "Pepino", "Aguacate", "Langostino", "Algas Nori"],
+            "disponible": true,
+            "recomendacion": "Una selección perfecta para los amantes del sushi que desean probar diferentes variedades.",
+            "alergenos": ["Pescado", "Crustáceos"],
+            "valoraciones": [
+                {"usuario": "Cliente67", "puntuacion": 5},
+                {"usuario": "Cliente68", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "35",
+            "nombre_plato": "Chiles Rellenos",
+            "categoria": "Plato Principal",
+            "descripcion": "Chiles poblanos rellenos de queso y bañados en salsa de tomate",
+            "precio": 12.49,
+            "nivel_picante": "Medio",
+            "vegetariano": true,
+            "libre_de_gluten": false,
+            "ingredientes": ["Chiles Poblanos", "Queso", "Tomate"],
+            "disponible": true,
+            "recomendacion": "Un plato tradicional de la cocina mexicana que combina sabores intensos y deliciosos.",
+            "alergenos": ["Lácteos"],
+            "valoraciones": [
+                {"usuario": "Cliente69", "puntuacion": 4},
+                {"usuario": "Cliente70", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "36",
+            "nombre_plato": "Sangría",
+            "categoria": "Bebida",
+            "descripcion": "Sangría refrescante con vino tinto, frutas y especias",
+            "precio": 6.99,
+            "nivel_picante": "Sin Picante",
+            "vegetariano": true,
+            "libre_de_gluten": true,
+            "ingredientes": ["Vino Tinto", "Naranja", "Limón", "Frutas Variadas"],
+            "disponible": true,
+            "recomendacion": "Una bebida perfecta para acompañar una comida española o para disfrutar en una tarde calurosa.",
+            "alergenos": [],
+            "valoraciones": [
+                {"usuario": "Cliente71", "puntuacion": 5},
+                {"usuario": "Cliente72", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "37",
+            "nombre_plato": "Poke Bowl",
+            "categoria": "Plato Principal",
+            "descripcion": "Poke bowl fresco con arroz, pescado crudo, aguacate y salsa de soja",
+            "precio": 14.99,
+            "nivel_picante": "Sin Picante",
+            "vegetariano": false,
+            "libre_de_gluten": false,
+            "ingredientes": ["Arroz", "Salmón", "Atún", "Aguacate", "Salsa de Soja"],
+            "disponible": true,
+            "recomendacion": "Una opción saludable y sabrosa inspirada en la cocina hawaiana.",
+            "alergenos": ["Pescado"],
+            "valoraciones": [
+                {"usuario": "Cliente73", "puntuacion": 4},
+                {"usuario": "Cliente74", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "38",
+            "nombre_plato": "Sopa de Lentejas",
+            "categoria": "Sopa",
+            "descripcion": "Sopa caliente de lentejas con verduras y especias",
+            "precio": 5.49,
+            "nivel_picante": "Suave",
+            "vegetariano": true,
+            "libre_de_gluten": true,
+            "ingredientes": ["Lentejas", "Zanahoria", "Cebolla", "Ajo", "Comino"],
+            "disponible": true,
+            "recomendacion": "Una sopa reconfortante y nutritiva perfecta para los días fríos.",
+            "alergenos": [],
+            "valoraciones": [
+                {"usuario": "Cliente75", "puntuacion": 5},
+                {"usuario": "Cliente76", "puntuacion": 4}
+            ]
+        },
+        {
+            "item_id": "39",
+            "nombre_plato": "Panna Cotta",
+            "categoria": "Postre",
+            "descripcion": "Panna cotta italiana con coulis de frutos rojos",
+            "precio": 7.49,
+            "nivel_picante": "Suave",
+            "vegetariano": true,
+            "libre_de_gluten": false,
+            "ingredientes": ["Nata", "Azúcar", "Gelatina", "Vainilla"],
+            "disponible": true,
+            "recomendacion": "Un postre elegante y cremoso para los amantes de la cocina italiana.",
+            "alergenos": ["Lácteos"],
+            "valoraciones": [
+                {"usuario": "Cliente77", "puntuacion": 4},
+                {"usuario": "Cliente78", "puntuacion": 5}
+            ]
+        },
+        {
+            "item_id": "40",
+            "nombre_plato": "Tarta de Limón",
+            "categoria": "Postre",
+            "descripcion": "Tarta de limón con merengue tostado",
+            "precio": 8.49,
+            "nivel_picante": "Suave",
+            "vegetariano": true,
+            "libre_de_gluten": false,
+            "ingredientes": ["Limón", "Huevo", "Azúcar", "Harina"],
+            "disponible": true,
+            "recomendacion": "Un postre refrescante y delicioso para los amantes de los cítricos.",
+            "alergenos": ["Lácteos", "Huevo", "Gluten"],
+            "valoraciones": [
+                {"usuario": "Cliente79", "puntuacion": 5},
+                {"usuario": "Cliente80", "puntuacion": 4}
+            ]
+        }
+    ]
+}

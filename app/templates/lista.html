@@ -1,0 +1,44 @@
+{% extends './base.html' %}
+{% block title %}Lista de Platos{% endblock %}
+
+{% block content %}
+<div id="banner-wrapper">
+    <div id="banner" class="box container">
+        <div class="row">
+            <div class="col-7 col-12-medium">
+    <h2>Resultados de la búsqueda</h2>
+    {% if mensaje %}
+        <p>{{ mensaje }}</p>
+        <p><a href='/buscador'>Volver al Buscador</a></p>
+    {% else %}
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nombre del Plato</th>
+                        <th>Categoría</th>
+                        <th>Descripción</th>
+                        <th>Detalles</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for plato in platos %}
+                        <tr>
+                            <td>{{ plato['nombre_plato'] }}</td>
+                            <td>{{ plato['categoria'] }}</td>
+                            <td>{{ plato['descripcion'] }}</td>
+                            <td id="detalles"><a href="/detalle/{{ plato['item_id'] }}">Detalles</a></td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <form method="get" action="/buscador">
+            <button type="submit">Volver al buscador</button>
+        </form>
+    </div>
+</div>
+</div>
+</div>
+    {% endif %}
+{% endblock %}

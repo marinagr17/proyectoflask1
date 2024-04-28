@@ -1,0 +1,35 @@
+{% extends './base.html' %}
+{% block title %}Detalles del Plato{% endblock %}
+
+{% block content %}
+<div id="banner-wrapper">
+    <div id="banner" class="box container">
+        <div class="row">
+            <div class="col-7 col-12-medium">	
+    <h2>Detalles del Plato</h2>
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Precio</th>
+                    <th>Nivel de Picante</th>
+                    <th>Alergenos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{ plato['precio'] }}</td>
+                    <td>{{ plato['nivel_picante'] }}</td>
+                    <td>{{ ', '.join(plato['alergenos']) }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <form method="get" action="/buscador">
+        <button type="submit">Volver al buscador</button>
+    </form>
+</div>
+</div>
+</div>
+</div>
+{% endblock %}
